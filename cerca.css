@@ -1,0 +1,23 @@
+#search_section{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 5% 5%;
+    margin-top: 0px;
+    flex-grow: 1;
+}
+
+form{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.film_search{
+    width: calc(25% - 26px);
+}

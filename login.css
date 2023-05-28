@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    background-image: url(images/sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .9;
+}
+
+body h1{
+    font-size: 60px;
+    color: rgb(221, 245, 248);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid rgb(221, 245, 248);
+    border-radius: 7%;
+    padding: 10px;
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44); 
+    text-align: center;
+}
+
+article h1{
+    font-size: 40px;
+    color: rgb(26, 35, 56)
+}
+
+article p a{
+    color:#4286f4;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+}
+
+
+.text{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(221, 245, 248);
+}
+
+.text::placeholder{
+    color: rgb(221, 245, 248)
+}
+
+.submit{
+    font-size: 20px;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+article p{
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.errore{
+    color: #e30000;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+label img{
+    width: 5%;
+    position: absolute;
+    right: 3%;
+}
+
+label img:hover{
+    cursor: pointer;
+}
+
+@media(max-width: 700px){
+    article{
+        width: 80%;
+    }
+
+    article h1{
+        font-size: 20px;
+    }
+    label{
+        font-size: 1rem;
+    }
+
+    .text{
+        font-size: .8rem;
+    }
+
+    article p{
+        font-size: 0.8rem;
+        padding-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .submit{
+        font-size: 10px;
+    }
+}
