@@ -183,6 +183,10 @@ div.paragrafo img{
         font-size: 0.5rem;
     }
     
+    #news em{
+        font-size: 0.6rem;
+    }
+    
 }
 
 @media(max-width: 300px){
